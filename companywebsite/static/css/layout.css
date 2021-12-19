@@ -4,7 +4,7 @@
 }
 body {
   background-color: whitesmoke;
-  color: #17421d;
+  color: #black;
 }
 .container {
   width: 1080px;
@@ -20,12 +20,13 @@ body {
   width: 100%;
   height: 250px;
   text-align: center;
-  font-size: 60px;
-  background-image: url("/static/img/banner1.jpg");
+  font-size: 40px;
+  font-weight: bold;
+  background-image: url("/static/img/lm.png");
   background-size: 100% 100%;
   margin: 0px 0px 0px 0px;
   padding-top: 150px;
-  color: #16d1ae;
+  color: #E86D11;
 }
 
 .menu {
@@ -33,7 +34,7 @@ body {
   width: 100%;
   height: 50px;
   font-size: larger;
-  background-color: #5bb045;
+  background-color: #E89659;
   text-align: center;
   padding-top: 15px;
   margin: 0px 0px 0px 0px;
@@ -49,7 +50,7 @@ body {
   display: inline-block;
   margin-left: 10px;
   margin-right: 10px;
-  color: #16d1ae;
+  color: #d1ce16;
 }
 
 .menuitem a {
@@ -60,7 +61,7 @@ body {
 .content {
   display: block;
   width: 100%;
-  background-color: #cffffd;
+  background-color: whitesmoke;
   min-height: 500px;
   margin: 0px 0px 0px 0px;
   border-width: 1px;
@@ -82,7 +83,8 @@ body {
 }
 
 .contenttext {
-  text-align: justify;
+  text-align: left;
+  background-image:url("/static/img/ground1.jpg") ;
 }
 
 .productcontent {
@@ -114,12 +116,13 @@ body {
   display: block;
   margin-left: auto;
   margin-right: auto;
-  width: 100px;
+  width: 200px;
   margin-bottom: 5px;
 }
 
 .productitem .itemname {
   display: block;
+  font-weight: 900;
 }
 .productitem .itemprice {
   display: block;
@@ -129,9 +132,14 @@ body {
   display: block;
   width: 100%;
   height: 40px;
-  background-color: #5bb045;
+  background-color: #E89659;
   text-align: center;
   padding-top: 10px;
   margin: 0px 0px 0px 0px;
   color: #9c1018;
+}
+.contactus{
+  background-image: url("/static/img/cbg.jpg");
+  text-align: left;
+  font-weight: bolder;
 }
