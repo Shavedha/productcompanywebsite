@@ -374,10 +374,15 @@ Home page:
 ![output](./images/home.png)
 
 Products page:
+
 ![output](./images/products.png)
+
 People page:
+
 ![output](./images/people.png)
+
 Contact us page:
+
 ![output](./images/contact.png) 
 
 ## Result:
